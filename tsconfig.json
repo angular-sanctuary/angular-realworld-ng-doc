@@ -2,6 +2,10 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@ng-doc/generated": ["./ng-doc/angular-conduit/index.ts"],
+      "@ng-doc/generated/*": ["./ng-doc/angular-conduit/*"]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
